@@ -14,7 +14,7 @@ struct ContentView: View {
         VStack(spacing: 40) {
             Text("Водный Баланс")
                 .font(.system(size: 34, weight: .bold, design: .rounded))
-                .foregroundColor(.primary)
+                .foregroundColor(.primary)  
                 .padding(.top, 40)
             
             ZStack {
